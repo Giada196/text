@@ -3,12 +3,12 @@ e stampa tutti i numeri fino al valore immesso,
 la stampa dovrà interrompersi se il valore è uguale a 5. */
 public class Cicliavanzati {
     public static void main(String args[]) {
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
             if (i == 5) {
                 break;
             }
 
-            System.out.println(i);
         }
     }
 }
