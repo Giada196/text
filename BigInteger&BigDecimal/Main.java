@@ -31,7 +31,7 @@ public class Main {
                 break;
             }
             case DIVISIONE -> {
-                risultato = num1.divide(num2);
+                risultato = num1.divide(num2, RoundingMode.HALF_EVEN);
                 break;
             }
             case MAX -> {
